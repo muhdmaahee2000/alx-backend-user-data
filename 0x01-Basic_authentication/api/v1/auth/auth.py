@@ -2,7 +2,7 @@
 """
 Definition of class Auth
 """
-from flask import request
+from flask import Flask, request
 from typing import (
     List,
     TypeVar
