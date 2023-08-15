@@ -11,7 +11,7 @@ from flask import (
     url_for
 )
 
-from auth import Auth
+from auth import _hash_password
 
 app = Flask(__name__)
 AUTH = Auth()
